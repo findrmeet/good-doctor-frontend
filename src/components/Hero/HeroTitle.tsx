@@ -1,7 +1,7 @@
 const HeroTitle = () => {
   return (
     <div>
-      <h1 className="text-6xl font-bold text-center leading-19">
+      <h1 className="text-3xl sm:text-6xl font-bold text-center sm:leading-19">
         Find the Right Doctor, <br />
         <span className="bg-linear-to-r from-[#0070DF] to-[#00FFA6] bg-clip-text text-transparent">
           Right Now
