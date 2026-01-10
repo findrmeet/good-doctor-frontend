@@ -3,6 +3,7 @@ import DoctorCard from "./DoctorCard";
 import OutlineBtn from "../Button/OutlineBtn";
 import { ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 type Doctor = {
   id: number;
@@ -38,36 +39,57 @@ const AllDoctors = () => {
   const visibleDoctors = doctors.slice(0, 3);
   const hiddenDoctors = doctors.slice(3);
 
+  // Animation variants for hidden doctors
+  const doctorVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+    exit: { opacity: 0, y: 20 },
+  };
+
   return (
     <section className="space-y-10 custom-container py-18">
-      {/* all doctors section details */}
+      {/* Section header */}
       <div className="space-y-2">
-        <h2 className="text-3xl font-bold"> Book Our Popular Specialists</h2>
+        <h2 className="text-3xl font-bold">Book Our Popular Specialists</h2>
         <p className="font-medium text-gray-500">
           Most trusted doctors based on patient reviews and success rates
         </p>
       </div>
 
-      {/* doctors grid */}
+      {/* Doctors grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
-        {/* Always visible */}
+        {/* Always visible doctors */}
         {visibleDoctors.map((doctor, index) => (
           <DoctorCard key={doctor.id ?? index} {...doctor} />
         ))}
 
-        {/* Conditionally visible */}
-        {viewAllDoc &&
-          hiddenDoctors.map((doctor, index) => (
-            <DoctorCard key={doctor.id ?? `hidden-${index}`} {...doctor} />
-          ))}
+        {/* Hidden doctors with animation */}
+        <AnimatePresence>
+          {viewAllDoc &&
+            hiddenDoctors.map((doctor, index) => (
+              <motion.div
+                key={doctor.id ?? `hidden-${index}`}
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+                variants={doctorVariants}
+                transition={{ duration: 0.4, delay: index * 0.1 }}
+              >
+                <DoctorCard {...doctor} />
+              </motion.div>
+            ))}
+        </AnimatePresence>
       </div>
 
+      {/* Toggle button */}
       <div className="flex justify-center">
-        <OutlineBtn className="flex gap-1 p-3 group" onClick={toggleViewAll}>
+        <OutlineBtn className="flex gap-1 p-3 " onClick={toggleViewAll}>
           View All Doctor
           <ChevronDown
             size={18}
-            className="group-hover:translate-y-0.5 transition duration-300"
+            className={` transition duration-300 ${
+              viewAllDoc ? "rotate-180" : ""
+            }`}
           />
         </OutlineBtn>
       </div>
