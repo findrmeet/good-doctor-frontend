@@ -1,4 +1,5 @@
 import Image from "next/image";
+import OutlineBlueBtn from "../Button/OutlineBlueBtn";
 
 interface SymptomCardProps {
   imgSrc: string;
@@ -16,7 +17,7 @@ const SymptomCard: React.FC<SymptomCardProps> = ({
   return (
     <div className="p-2 flex flex-col gap-4 border border-gray-200 rounded-2xl ">
       <Image src={imgSrc} alt={category} width={220} height={160} />
-      <div className="space-y-1">
+      <div className="flex flex-col gap-1">
         <h2 className="font-bold">{category}</h2>
         <p className="text-xs text-gray-500">{common_issues}</p>
         <div className="flex gap-2 items-center">
@@ -64,6 +65,7 @@ const SymptomCard: React.FC<SymptomCardProps> = ({
 
           <span className="text-xs">{specialist}</span>
         </div>
+        <OutlineBlueBtn className="p-2">Find a Specialist</OutlineBlueBtn>
       </div>
     </div>
   );
