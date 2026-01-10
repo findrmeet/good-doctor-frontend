@@ -1,9 +1,5 @@
 const Footer = () => {
-  return (
-    <div className="flex justify-between py-4 mx-auto max-w-384 p-2">
-      Footer
-    </div>
-  );
+  return <div className="flex justify-between custom-container">Footer</div>;
 };
 
 export default Footer;

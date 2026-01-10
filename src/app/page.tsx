@@ -1,4 +1,4 @@
-import Card from "@/components/Card/Card";
+import AllDoctors from "@/components/AllDoctors/AllDoctors";
 import Hero from "@/components/Hero/Hero";
 import Marquee from "@/components/Marquee/Marquee";
 
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Marquee />
-      <Card />
+      <AllDoctors />
     </>
   );
 }

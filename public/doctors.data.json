@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Jasmin Ara Zaman",
+    "image": "/doc-img.png",
+    "qualifications": "MBBS, Diploma (Gynae & Obs), FCPS (Gynae & Obs)",
+    "specialty": "Gynaecologist & Obstetrician",
+    "hospital": "Popular Hospital & Diagnostics, Bogura",
+    "reviewsCount": 125,
+    "experienceYears": 5,
+    "fee": 560
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jasmin Ara Zaman",
+    "image": "/doc-img.png",
+    "qualifications": "MBBS, Diploma (Gynae & Obs), FCPS (Gynae & Obs)",
+    "specialty": "Gynaecologist & Obstetrician",
+    "hospital": "Popular Hospital & Diagnostics, Bogura",
+    "reviewsCount": 125,
+    "experienceYears": 5,
+    "fee": 560
+  },
+  {
+    "id": 3,
+    "name": "Dr. Jasmin Ara Zaman",
+    "image": "/doc-img.png",
+    "qualifications": "MBBS, Diploma (Gynae & Obs), FCPS (Gynae & Obs)",
+    "specialty": "Gynaecologist & Obstetrician",
+    "hospital": "Popular Hospital & Diagnostics, Bogura",
+    "reviewsCount": 125,
+    "experienceYears": 5,
+    "fee": 560
+  },
+  {
+    "id": 4,
+    "name": "Dr. Jasmin Ara Zaman",
+    "image": "/doc-img.png",
+    "qualifications": "MBBS, Diploma (Gynae & Obs), FCPS (Gynae & Obs)",
+    "specialty": "Gynaecologist & Obstetrician",
+    "hospital": "Popular Hospital & Diagnostics, Bogura",
+    "reviewsCount": 125,
+    "experienceYears": 5,
+    "fee": 560
+  },
+  {
+    "id": 5,
+    "name": "Dr. Jasmin Ara Zaman",
+    "image": "/doc-img.png",
+    "qualifications": "MBBS, Diploma (Gynae & Obs), FCPS (Gynae & Obs)",
+    "specialty": "Gynaecologist & Obstetrician",
+    "hospital": "Popular Hospital & Diagnostics, Bogura",
+    "reviewsCount": 125,
+    "experienceYears": 5,
+    "fee": 560
+  },
+  {
+    "id": 6,
+    "name": "Dr. Jasmin Ara Zaman",
+    "image": "/doc-img.png",
+    "qualifications": "MBBS, Diploma (Gynae & Obs), FCPS (Gynae & Obs)",
+    "specialty": "Gynaecologist & Obstetrician",
+    "hospital": "Popular Hospital & Diagnostics, Bogura",
+    "reviewsCount": 125,
+    "experienceYears": 5,
+    "fee": 560
+  }
+]

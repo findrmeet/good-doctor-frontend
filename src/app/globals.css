@@ -20,3 +20,9 @@ body {
     transform: translateX(-50%);
   }
 }
+
+@layer base {
+  .custom-container {
+    @apply mx-auto max-w-384  px-2 2xl:px-0;
+  }
+}

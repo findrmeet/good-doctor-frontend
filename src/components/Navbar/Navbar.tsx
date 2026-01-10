@@ -4,7 +4,7 @@ import NavMenu from "./NavMenu";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between py-4 mx-auto max-w-384 p-2">
+    <nav className="flex justify-between py-4 custom-container">
       <Logo />
       <div className="flex items-center gap-6">
         <NavMenu />
