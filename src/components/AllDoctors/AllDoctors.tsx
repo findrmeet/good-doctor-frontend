@@ -4,6 +4,7 @@ import OutlineBtn from "../Button/OutlineBtn";
 import { ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import SectionInfo from "../SectionInfo/SectionInfo";
 
 type Doctor = {
   id: number;
@@ -50,10 +51,10 @@ const AllDoctors = () => {
     <section className="space-y-10 custom-container py-18">
       {/* Section header */}
       <div className="space-y-2">
-        <h2 className="text-3xl font-bold">Book Our Popular Specialists</h2>
-        <p className="font-medium text-gray-500">
-          Most trusted doctors based on patient reviews and success rates
-        </p>
+        <SectionInfo
+          title="Book Our Popular Specialists"
+          subtitle="Most trusted doctors based on patient reviews and success rates"
+        />
       </div>
 
       {/* Doctors grid */}
