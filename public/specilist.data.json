@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "src": "/General Physician.png",
+    "name": "General Physician",
+    "details": "Common illnesses, fever & checkups"
+  },
+  {
+    "id": 2,
+    "src": "/Internal Medicine.png",
+    "name": "Internal Medicine",
+    "details": "Diagnosis & management of complex diseases"
+  },
+  {
+    "id": 3,
+    "src": "/Gynae & Obs.png",
+    "name": "Gynae & Obs",
+    "details": "Women's health, pregnancy & fertility"
+  },
+  {
+    "id": 4,
+    "src": "/Pediatrics.png",
+    "name": "Pediatrics",
+    "details": "Child health, growth & vaccinations"
+  },
+  {
+    "id": 5,
+    "src": "/Dermatology.png",
+    "name": "Dermatology",
+    "details": "Skin, hair, acne & cosmetic care"
+  },
+  {
+    "id": 6,
+    "src": "/Endocrinology.png",
+    "name": "Endocrinology",
+    "details": "Diabetes, thyroid and hormonal disorders"
+  },
+  {
+    "id": 7,
+    "src": "/Neurology.png",
+    "name": "Neurology",
+    "details": "Brain, nerve & spinal conditions"
+  },
+  {
+    "id": 8,
+    "src": "/Gastroenterology.png",
+    "name": "Gastroenterology",
+    "details": "Digestive, liver & stomach issues"
+  },
+  {
+    "id": 9,
+    "src": "/Dentistry.png",
+    "name": "Dentistry",
+    "details": "Dental care, braces & oral hygiene"
+  },
+  {
+    "id": 10,
+    "src": "/Urology.png",
+    "name": "Urology",
+    "details": "Kidney, bladder & urinary problems"
+  },
+  {
+    "id": 11,
+    "src": "/Nephrology.png",
+    "name": "Nephrology",
+    "details": "Kidney disease & dialysis care"
+  },
+  {
+    "id": 12,
+    "src": "/Psychiatry.png",
+    "name": "Psychiatry",
+    "details": "Mental health, depression & medication"
+  },
+  {
+    "id": 13,
+    "src": "/Cardiology.png",
+    "name": "Cardiology",
+    "details": "Heart disease & blood pressure"
+  },
+  {
+    "id": 14,
+    "src": "/Psychology.png",
+    "name": "Psychology",
+    "details": "Counseling, therapy & behavioral health"
+  }
+]
