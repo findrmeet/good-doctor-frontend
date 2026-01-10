@@ -19,7 +19,7 @@ export default function SearchBar() {
         <input className="outline-none w-full text-sm" placeholder="Dhaka" />
       </div>
 
-      <PrimaryBtn className="flex gap-2 py-2 px-4">
+      <PrimaryBtn className="flex gap-2 py-2 px-4 hover:scale-105 transition-transform duration-1000">
         <Search />
         Search
       </PrimaryBtn>

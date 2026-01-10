@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "category": "Sexual Problems",
+    "common_issues": "Erectile dysfunction, libido issues",
+    "specialist": "Urology/Psychiatry",
+    "imgSrc": "/Sexual Problems.png"
+  },
+  {
+    "id": 2,
+    "category": "Period/Gynae Issues",
+    "common_issues": "Irregular periods, cramps",
+    "specialist": "Gynaecology & Obstetrics",
+    "imgSrc": "/PeriodGynae Issues.png"
+  },
+  {
+    "id": 3,
+    "category": "Fever, Cold/Flu",
+    "common_issues": "Viral, seasonal flu, allergy",
+    "specialist": "General Physician",
+    "imgSrc": "/Fever, Cold, Flu.png"
+  },
+  {
+    "id": 4,
+    "category": "Child Diseases",
+    "common_issues": "Fever, cold, vaccination",
+    "specialist": "Pediatrics",
+    "imgSrc": "/Child Diseases.png"
+  },
+  {
+    "id": 5,
+    "category": "Pregnancy Issues",
+    "common_issues": "Checkup, delivery guidance",
+    "specialist": "Gynaecology & Obstetrics",
+    "imgSrc": "/Pregnancy Issues.png"
+  },
+  {
+    "id": 6,
+    "category": "Weight Loss/Gain",
+    "common_issues": "Diet, lifestyle, plans",
+    "specialist": "Nutrition/Endocrinology",
+    "imgSrc": "/Weight Loss Gain.png"
+  },
+  {
+    "id": 7,
+    "category": "Itching, Acne & Skin",
+    "common_issues": "Skin rash, acne, eczema",
+    "specialist": "Dermatology",
+    "imgSrc": "/Itching, Acne & Skin.png"
+  },
+  {
+    "id": 8,
+    "category": "Hair Fall & Dandruff",
+    "common_issues": "Hair loss, dry scalp",
+    "specialist": "Dermatology",
+    "imgSrc": "/Hair Fall & Dandruff.png"
+  },
+  {
+    "id": 9,
+    "category": "Urine Problems",
+    "common_issues": "Pain, infection, frequent urination",
+    "specialist": "Urology",
+    "imgSrc": "/Urine Problems.png"
+  },
+  {
+    "id": 10,
+    "category": "ENT Problems",
+    "common_issues": "Ear pain, nasal allergy, sore throat",
+    "specialist": "ENT",
+    "imgSrc": "/ENT Problems.png"
+  },
+  {
+    "id": 11,
+    "category": "Abdominal/Body Pain",
+    "common_issues": "General pain",
+    "specialist": "General Physician",
+    "imgSrc": "/Abdominal_Body Pain.png"
+  },
+  {
+    "id": 12,
+    "category": "Kidney Problems",
+    "common_issues": "Pain, urine reduction",
+    "specialist": "Nephrology",
+    "imgSrc": "/Kidney Problems.png"
+  }
+]
