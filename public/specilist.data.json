@@ -82,5 +82,107 @@
     "src": "/Psychology.png",
     "name": "Psychology",
     "details": "Counseling, therapy & behavioral health"
+  },
+  {
+    "id": 15,
+    "src": "/Oncology.png",
+    "name": "Oncology",
+    "details": "Cancer diagnosis & treatment"
+  },
+  {
+    "id": 16,
+    "src": "/Plastic Surgery.png",
+    "name": "Plastic Surgery",
+    "details": "Cosmetic & reconstructive procedures"
+  },
+  {
+    "id": 17,
+    "src": "/Breast Surgery.png",
+    "name": "Breast Surgery",
+    "details": "Breast lumps, cancer & reconstructive surgery"
+  },
+  {
+    "id": 18,
+    "src": "/Pediatric Hematology.png",
+    "name": "Pediatric Hematology",
+    "details": "Child blood diseases & cancer treatment"
+  },
+  {
+    "id": 19,
+    "src": "/Family Medicine.png",
+    "name": "Family Medicine",
+    "details": "All-age general care & chronic illness"
+  },
+  {
+    "id": 20,
+    "src": "/Hematology.png",
+    "name": "Hematology",
+    "details": "Blood disorders & bleeding issues"
+  },
+  {
+    "id": 21,
+    "src": "/Public Health.png",
+    "name": "Public Health",
+    "details": "Community health & preventive care"
+  },
+  {
+    "id": 22,
+    "src": "/Speech Therapy.png",
+    "name": "Speech Therapy",
+    "details": "Speech-delays, stammering & voice issues"
+  },
+  {
+    "id": 23,
+    "src": "/Physical Medicine & Rehabilitation.png",
+    "name": "Physical Medicine & Rehabilitation",
+    "details": "Injury recovery & mobility improvement"
+  },
+  {
+    "id": 24,
+    "src": "/Colorectal Surgery.png",
+    "name": "Colorectal Surgery",
+    "details": "Colon, rectum & anal disorders"
+  },
+  {
+    "id": 25,
+    "src": "/Pediatric Gastroenterology.png",
+    "name": "Pediatric Gastroenterology",
+    "details": "Digestive disorders in children"
+  },
+  {
+    "id": 26,
+    "src": "/Neonatology.png",
+    "name": "Neonatology",
+    "details": "Care for newborns & premature babies"
+  },
+  {
+    "id": 27,
+    "src": "/Pediatric Neurology.png",
+    "name": "Pediatric Neurology",
+    "details": "Brain & nerve conditions in children"
+  },
+  {
+    "id": 28,
+    "src": "/Nuclear Medicine.png",
+    "name": "Nuclear Medicine",
+    "details": "Imaging & therapy using radioactive substances"
+  },
+  {
+    "id": 29,
+    "src": "/Vascular Surgery.png",
+    "name": "Vascular Surgery",
+    "details": "Blood vessel conditions & surgical care"
+  },
+  {
+    "id": 30,
+    "src": "/Herbal Medicine.png",
+    "name": "Herbal Medicine",
+    "details": "Natural treatments & traditional remedies"
+  },
+  {
+    "id": 31,
+    "src": "/Complementary.png",
+    "name": "Complementary",
+    "details": "Holistic care & non-traditional therapies"
   }
 ]
